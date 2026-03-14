@@ -9,7 +9,8 @@
 - 📊 Admin dashboard with status overview
 
 ## 🛠️ Tech Stack - For Reference
-- **Frontend:** HTML, CSS, JavaScript (v0.dev AI-generated UI)
+- **Frontend:** HTML, CSS, JavaScript  } - { But use React JS to build }
+- AI for frontend  : (v0.dev AI-generated UI)
 - **Backend:** Node.js + Express.js
 - **Database:** MongoDB Atlas
 - **Auth:** Firebase Authentication
@@ -19,7 +20,7 @@
 - Prateek  — Backend & APIs
 - Jalaj — Frontend & UI
 - [Teammate 3] — Auth & Deployment
- ( These roles are not fixed )
+- ( These roles are not fixed )
 
 ## 📌 Status
 🚧 Currently in development
