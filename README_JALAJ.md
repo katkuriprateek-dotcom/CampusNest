@@ -1,4 +1,5 @@
 # 🎨 CampusNest — Frontend Developer Tasks
+# -------> READ ONE PHASE AT A TIME <------
 ### 👤 Assigned To: Person 2 (Frontend)
 ### 🛠️ Tech Stack: React.js + Tailwind CSS + Firebase Auth
 
@@ -7,9 +8,9 @@
 ## 📌 Your Role Overview
 
 You are responsible for everything the user **sees and interacts with**.
-Your React frontend will connect to the backend APIs built by Person 1 (Node.js/Express).
+Your React frontend will connect to the backend APIs built by Prateek (Node.js/Express).
 
-> ⚠️ **Do NOT touch** the `/backend` folder — that belongs to Person 1.
+> ⚠️ **Do NOT touch** the `/backend` folder — that belongs to Prateek.
 > Your work lives entirely inside the `/frontend` folder.
 
 ---
@@ -27,8 +28,9 @@ Your React frontend will connect to the backend APIs built by Person 1 (Node.js/
   App.jsx              ← Main app with routing
   main.jsx             ← Entry point
 ```
-
 ---
+<br>
+Don't Worry About the folder structure now it's all a part you will learn in react JS course
 
 ## ✅ Task List
 
@@ -54,17 +56,17 @@ Your React frontend will connect to the backend APIs built by Person 1 (Node.js/
   npm install axios
   ```
 - [ ] Set up basic folder structure as shown above
-- [ ] Create `.env` file for environment variables (Firebase config, API base URL)
-- [ ] Push initial setup to GitHub on branch: `feature/frontend-setup`
-
+- [ ] Create `.env` file for environment variables (Firebase config, API base URL) - Person 3
+- [ ] Push initial setup to GitHub on branch: `feature/frontend-setup`             - GitHub sikhne ke liye Shraddha khapra 1hr video Best
+<br> You can watch youtube videos for installation
 ---
-
 ### 🎨 Phase 2 — UI Design with AI (Week 2)
 
 Use **v0.dev** (v0.dev) to generate your pages. Just describe what you want in plain English and copy the React + Tailwind code it gives you.
-
+Better create first the webpages in canvas and ask any AI to generate a prompt from the image and attach the prompt in v0.dev
 **Prompt examples to use on v0.dev:**
 
+This is a sample Design how the things should look
 ```
 "A college hostel dashboard with sidebar navigation,
  showing room cleaning status cards, recent complaints,
@@ -76,19 +78,19 @@ Use **v0.dev** (v0.dev) to generate your pages. Just describe what you want in p
  email and password fields, a role selector (Student/Warden/Admin),
  and a submit button. Clean, minimal design."
 ```
-
+ And these all are the components which you should be building these components combinely make Main web-page and Login Page for different viewers
 - [ ] Design and build **Login Page** using v0.dev
 - [ ] Design and build **Student Dashboard** layout
-- [ ] Design and build **Warden Dashboard** layout
-- [ ] Design and build **Admin Dashboard** layout
-- [ ] Create reusable **Navbar** component
+- [ ] Design and build **Warden Dashboard** layout         
+- [ ] Design and build **V~IR😂 Dashboard** layout         
+- [ ] Create reusable **Navbar** component                 { term Reusable no worries we will se in **React** }
 - [ ] Create reusable **Sidebar** component
 - [ ] Create reusable **RoomCard** component (shows room no, student name, clean status)
 - [ ] Create reusable **IssueCard** component (shows issue type, status badge, date)
 
 ---
 
-### 🛏️ Phase 3 — Cleaning Tracker Module (Week 3)
+### 🛏️ Phase 3 — Cleaning Tracker Module (Week 3)  - WARDEN & HR
 
 - [ ] **Cleaning Tracker Page** — shows all rooms in a grid/list
   - Each room shows: Room No, Student Name, Last Cleaned Date, Status (✅ / ❌)
@@ -106,7 +108,7 @@ Use **v0.dev** (v0.dev) to generate your pages. Just describe what you want in p
 
 ---
 
-### ⚡ Phase 4 — Issue Reporting Module (Week 3-4)
+### ⚡ Phase 4 — Issue Reporting Module (Week 3-4)   - STUDENTS
 
 - [ ] **Report Issue Form Page**
   - Fields: Issue Type (dropdown), Room No, Description, Photo upload (optional)
@@ -187,33 +189,6 @@ Use **v0.dev** (v0.dev) to generate your pages. Just describe what you want in p
 | React Router | "React Router v6 - Net Ninja" on YouTube |
 | Axios API calls | "Axios Crash Course" by Traversy Media on YouTube |
 | UI generation | v0.dev — describe your page, get React code |
-
----
-
-## 🌿 Git Branch Rules
-
-| Branch | Purpose |
-|--------|---------|
-| `main` | Only working, tested code — do NOT push directly |
-| `dev` | Everyone merges here daily |
-| `feature/frontend-setup` | Your Phase 1 branch |
-| `feature/cleaning-ui` | Your cleaning tracker UI branch |
-| `feature/issues-ui` | Your issue reporting UI branch |
-| `feature/dashboard` | Your dashboard branch |
-
-**Always:**
-```bash
-git checkout dev
-git pull origin dev          # Get latest before starting work
-git checkout -b feature/your-feature-name
-# ... do your work ...
-git add .
-git commit -m "feat: add room cleaning tracker page"
-git push origin feature/your-feature-name
-# Then open a Pull Request into dev on GitHub
-```
-
----
 
 ## 🤝 Coordination Points
 
